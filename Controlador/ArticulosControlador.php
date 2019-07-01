@@ -17,6 +17,10 @@
             echo "eliminando el articulo:".$parametro;
         }
 
+        public function buscar($id){
+            include "Vista/articulos/ver.php";
+        }
+
     }
 
 

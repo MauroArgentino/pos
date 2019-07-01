@@ -4,20 +4,21 @@
 ?>
 
 <form>
+<h1>FORMULARIO DE PRODUCTOS</h1>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label>Producto</label>
+    <input type="text" class="form-control" name="nombre" placeholder="Ingrese un producto">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label>Precio</label>
+    <input type="text" class="form-control" name="precio" placeholder="Ingrese un precio">
   </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  <div class="form-group">
+    <label>Stock</label>
+    <input type="text" class="form-control" name="stock" placeholder="Ingrese un stock">
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  
+  <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
 
 <?php
